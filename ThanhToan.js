@@ -18,6 +18,7 @@ const HinhThuc = document.getElementById("dataform");
 const VeXe = JSON.parse(localStorage.getItem("DatVe"));
 
 document.addEventListener('DOMContentLoaded', () => {
+    console.log("Trang thanh toán !");
     if(VeXe) {
         if(VeXe.title == "Đặt vé xe ngày tết") {
             const query = `<h1 id="TieuDe1">Hoá đơn thanh toán</h1>
@@ -291,5 +292,3 @@ document.getElementById("dataform").addEventListener('submit', async (event) => 
         console.log(`Lỗi khi gửi dữ liệu: ${error}`);
     }
 });
-
-console.log("Trang thanh toán !");
