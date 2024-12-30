@@ -291,3 +291,5 @@ document.getElementById("dataform").addEventListener('submit', async (event) => 
         console.log(`Lỗi khi gửi dữ liệu: ${error}`);
     }
 });
+
+console.log("Trang thanh toán !");
