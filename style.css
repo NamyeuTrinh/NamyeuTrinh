@@ -190,7 +190,7 @@ body {
 }
 
 .menuItem {
-    position: absolute;
+    position: fixed;
     left: -270px;
     display: flex;
     flex-direction: column;
